@@ -1,0 +1,82 @@
+/* Genel Stil Ayarları */
+body {
+    font-family: Arial, sans-serif; /* Sayfanın yazı tipi */
+    margin: 0; /* Sayfa kenar boşluklarını sıfırlar */
+    padding: 0; /* Sayfa iç boşluklarını sıfırlar */
+    background-color: #1b1b38; /* Koyu uzay temalı bir arka plan rengi */
+    color: #ffffff; /* Metin rengini beyaz yapar */
+}
+
+/* Başlık (Header) Stili */
+header {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb); /* Başlık kısmına yatay bir renk geçişi ekler */
+    padding: 20px; /* Üst ve alt boşluk ekler */
+    text-align: left; /* Metni sola hizalar */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Gölgelendirme ekler */
+}
+
+header h3 {
+    margin: 0; /* Başlığın dış boşluğunu sıfırlar */
+    font-size: 2em; /* Yazı boyutunu büyütür */
+    color: #ffffff; /* Yazıyı beyaz yapar */
+    letter-spacing: 2px; /* Harfler arasına boşluk ekler */
+}
+
+/* Resim Stili */
+img {
+    display: block; /* Resmi blok element yapar ve alt satıra geçirir */
+    margin: 20px auto; /* Resmi ortalar ve üst-alt boşluk ekler */
+    max-width: 80%; /* Resmin maksimum genişliğini %80 ile sınırlar */
+    border: 3px solid #ffffff; /* Beyaz bir çerçeve ekler */
+    border-radius: 10px; /* Çerçeve köşelerini yuvarlar */
+    box-shadow: 0 4px 15px rgba(240, 213, 38, 0.5); /* Resme gölgelendirme ekler */
+}
+
+/* Navigasyon (Menü) Stili */
+nav {
+    background: #2c2c54; /* Menü arka plan rengini koyu mavi yapar */
+    padding: 20px; /* Menü içerisine boşluk ekler */
+    margin: 0; /* Navigasyonu üst kenara yapıştırır */
+    border-radius: 10px; /* Köşeleri yuvarlar */
+    display: flex; /* Menü öğelerini hizalamak için flexbox kullanır */
+    align-items: center; /* Menü içeriğini dikey ortalar */
+    justify-content: space-between; /* Menü içeriğini yatay olarak dağıtır */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Menünün altına gölgelendirme ekler */
+}
+
+nav div {
+    font-size: 1.2em; /* Yazı boyutunu büyütür */
+    font-weight: bold; /* Yazıyı kalın yapar */
+    text-transform: uppercase; /* Yazıyı büyük harfe çevirir */
+    color: #8f94fb; /* Yazı rengini açık mavi yapar */
+    margin: 0; /* Ekstra boşlukları sıfırlar */
+}
+
+nav ul {
+    list-style: none; /* Liste öğelerinin madde işaretlerini kaldırır */
+    padding: 0; /* Liste iç boşluğunu sıfırlar */
+    margin: 0; /* Liste dış boşluğunu sıfırlar */
+    display: flex; /* Liste öğelerini yatay hizalar */
+    gap: 15px; /* Menü öğeleri arasına boşluk ekler */
+}
+
+nav ul li {
+    text-align: center; /* Liste öğelerini ortalar */
+}
+
+nav ul li a {
+    text-decoration: none; /* Linkin alt çizgisini kaldırır */
+    color: #ffffff; /* Linkin rengini beyaz yapar */
+    font-size: 1.1em; /* Link yazı boyutunu büyütür */
+    padding: 10px 15px; /* Linke iç boşluk ekler */
+    display: inline-block; /* Linki blok seviyesine çıkarır */
+    background: #4e54c8; /* Link arka plan rengini koyu mavi yapar */
+    border-radius: 5px; /* Link köşelerini yuvarlar */
+    transition: all 0.3s ease-in-out; /* Geçiş efektlerini etkinleştirir */
+}
+
+nav ul li a:hover {
+    background: #8f94fb; /* Üzerine gelindiğinde arka plan rengini değiştirir */
+    box-shadow: 0px 4px 10px rgba(143, 148, 251, 0.6); /* Üzerine gelindiğinde gölgelendirme ekler */
+    transform: scale(1.05); /* Üzerine gelindiğinde linki hafifçe büyütür */
+}

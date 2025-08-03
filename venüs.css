@@ -1,0 +1,150 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b38; /* Arka plan aynı renk */
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Başlık */
+header {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #f0f0f0;
+}
+
+/* Bölüm ve Makale Stilleri */
+section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #2c2c54;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    background: #333366;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+article h2 {
+    color: #8f94fb;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+article p {
+    font-size: 1em;
+    color: #dcdcdc;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+/* Resim */
+article img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Liste ve Ekstra Stiller */
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    header h2 {
+        font-size: 2em;
+    }
+
+    article h2 {
+        font-size: 1.5em;
+    }
+
+    article p {
+        font-size: 0.9em;
+    }
+}
+
+
+
+nav {
+    background: #2c2c54; /* Menü arka plan rengini koyu mavi yapar */
+    padding: 20px; /* Menü içerisine boşluk ekler */
+    margin: 0; /* Navigasyonu üst kenara yapıştırır */
+    border-radius: 10px; /* Köşeleri yuvarlar */
+    display: flex; /* Menü öğelerini hizalamak için flexbox kullanır */
+    align-items: center; /* Menü içeriğini dikey ortalar */
+    justify-content: space-between; /* Menü içeriğini yatay olarak dağıtır */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Menünün altına gölgelendirme ekler */
+}
+
+nav div {
+    font-size: 1.2em; /* Yazı boyutunu büyütür */
+    font-weight: bold; /* Yazıyı kalın yapar */
+    text-transform: uppercase; /* Yazıyı büyük harfe çevirir */
+    color: #8f94fb; /* Yazı rengini açık mavi yapar */
+    margin: 0; /* Ekstra boşlukları sıfırlar */
+}
+
+nav ul {
+    list-style: none; /* Liste öğelerinin madde işaretlerini kaldırır */
+    padding: 0; /* Liste iç boşluğunu sıfırlar */
+    margin: 0; /* Liste dış boşluğunu sıfırlar */
+    display: flex; /* Liste öğelerini yatay hizalar */
+    gap: 15px; /* Menü öğeleri arasına boşluk ekler */
+}
+
+nav ul li {
+    text-align: center; /* Liste öğelerini ortalar */
+}
+
+nav ul li a {
+    text-decoration: none; /* Linkin alt çizgisini kaldırır */
+    color: #ffffff; /* Linkin rengini beyaz yapar */
+    font-size: 1.1em; /* Link yazı boyutunu büyütür */
+    padding: 10px 15px; /* Linke iç boşluk ekler */
+    display: inline-block; /* Linki blok seviyesine çıkarır */
+    background: #4e54c8; /* Link arka plan rengini koyu mavi yapar */
+    border-radius: 5px; /* Link köşelerini yuvarlar */
+    transition: all 0.3s ease-in-out; /* Geçiş efektlerini etkinleştirir */
+}
+
+nav ul li a:hover {
+    background: #8f94fb; /* Üzerine gelindiğinde arka plan rengini değiştirir */
+    box-shadow: 0px 4px 10px rgba(143, 148, 251, 0.6); /* Üzerine gelindiğinde gölgelendirme ekler */
+    transform: scale(1.05); /* Üzerine gelindiğinde linki hafifçe büyütür */
+}
+
