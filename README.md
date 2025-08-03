@@ -1,1 +1,1 @@
-güneş sistemindeki gezegenlerin özellikleri hakkında bilgilendirme yapmak javascript,html ve css kullandığım bu projeyi geliştirdim
+güneş sistemindeki gezegenlerin özellikleri hakkında bilgilendirme yapmak için Javascript, Html ve Css kullandığım bu projeyi geliştirdim
